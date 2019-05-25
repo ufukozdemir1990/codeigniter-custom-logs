@@ -1,5 +1,4 @@
 # Codeigniter Custom Logs
-> **Note: Saved records are stored in the logs folder as year, month and day.**
 
 ## Install
 ```php
@@ -15,6 +14,7 @@ Logs::delete("Product deleted");
 Logs::other("Custom text");
 ```
 
+> **Note: Saved records are stored in the logs folder as year, month and day.**
 <pre><code>Logs
 ├── 2019
 │   ├── 06
